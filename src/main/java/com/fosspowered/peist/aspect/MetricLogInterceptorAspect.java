@@ -85,6 +85,7 @@ public class MetricLogInterceptorAspect {
         return FAULT_SUFFIX;
       case ERROR:
         return ERROR_SUFFIX;
+      case FAILURE:
       default:
         return FAILURE_SUFFIX;
     }
